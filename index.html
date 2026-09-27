@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TOKYO 5 DAYS / 4 NIGHTS</title>
+<style>
+:root{--bg:#f5f5f2;--card:#fff;--ink:#171717;--muted:#6b6b6b;--line:#ddd;--accent:#b21f2d;--dark:#111827}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;background:var(--bg);color:var(--ink)}
+header{background:var(--dark);color:#fff;padding:34px 20px 26px}.wrap{max-width:980px;margin:auto}.eyebrow{letter-spacing:.16em;font-size:12px;opacity:.7}.hero h1{margin:8px 0 4px;font-size:clamp(32px,7vw,64px);line-height:.95}.hero p{margin:8px 0;color:#ddd}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.chip{background:#ffffff16;border:1px solid #ffffff30;padding:7px 10px;border-radius:999px;font-size:13px}
+nav{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:10;overflow:auto;white-space:nowrap}.tabs{max-width:980px;margin:auto;display:flex}.tabs button{border:0;background:none;padding:15px 17px;font-weight:700;cursor:pointer}.tabs button.active{color:var(--accent);border-bottom:3px solid var(--accent)}
+main{max-width:980px;margin:auto;padding:18px 14px 80px}.day{display:none}.day.active{display:block}.title{display:flex;justify-content:space-between;gap:12px;align-items:end;margin:12px 2px 18px}.title h2{margin:0;font-size:26px}.subtitle{color:var(--muted);font-size:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:10px 0;box-shadow:0 2px 10px #00000008}.time{font-weight:800;color:var(--accent);font-size:13px}.card h3{margin:5px 0 8px}.card p{margin:5px 0;color:#444;line-height:1.55}.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#f1f1f1;font-size:11px;font-weight:800;margin:3px 4px 3px 0}.must{background:#fee2e2;color:#991b1b}.lock{background:#111827;color:#fff}.pending{background:#fef3c7;color:#92400e}.shop{background:#e0f2fe;color:#075985}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.check{display:flex;gap:10px;align-items:flex-start}.check input{margin-top:4px;transform:scale(1.15)}.done{opacity:.45;text-decoration:line-through}.section{margin-top:28px}.section h3{font-size:19px}.small{font-size:13px;color:var(--muted)}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-top:-18px}.summary .card{margin:0}.big{font-size:22px;font-weight:800}.footer{color:#777;text-align:center;padding:20px;font-size:12px}.btn{border:1px solid #ccc;background:#fff;border-radius:10px;padding:8px 10px;cursor:pointer}.shoprow{display:grid;grid-template-columns:32px 1fr auto;gap:8px;align-items:center;border-top:1px solid #eee;padding:10px 0}.shoprow:first-child{border-top:0}.note{border-left:4px solid var(--accent);padding-left:12px}
+@media(max-width:600px){header{padding-top:25px}.tabs button{padding:13px 14px}.card{border-radius:14px}.title{align-items:start;flex-direction:column}}
+</style>
+</head>
+<body>
+<header><div class="wrap hero"><div class="eyebrow">TOKYO TRAVEL DASHBOARD</div><h1>TOKYO<br>5 DAYS / 4 NIGHTS</h1><p>01 OCT — 05 OCT 2026 · 2 Travelers</p><div class="chips"><span class="chip">✈ IT200 TPE → NRT</span><span class="chip">🏨 Maihama → Nippori</span><span class="chip">✈ JX803 NRT → TPE</span></div></div></header>
+<nav><div class="tabs" id="tabs"></div></nav>
+<main>
+<div class="summary"><div class="card"><div class="small">Trip</div><div class="big">5D4N</div></div><div class="card"><div class="small">Outbound</div><div class="big">IT200 · 11:00</div></div><div class="card"><div class="small">Return</div><div class="big">JX803 · 16:20</div></div><div class="card"><div class="small">Progress</div><div class="big" id="progress">0%</div></div></div>
+
+<section class="day" data-day="1"><div class="title"><div><div class="small">DAY 1 · 10/01 THU</div><h2>Arrival × Aviation × Odaiba</h2></div><span class="badge pending">Final audit pending</span></div>
+<div class="card"><div class="time">11:00</div><h3>🛬 IT200 抵達成田</h3><p>入境 → 行李 → 海關。依實際速度決定 N'EX，不硬追 22 號。</p></div>
+<div class="card"><div class="time">PRIMARY 12:45 → 13:19</div><h3>🚆 N'EX 22｜NRT → 千葉</h3><p>Backup：N'EX 26｜13:44 → 14:18。</p><span class="badge must">重要交通</span></div>
+<div class="card"><h3>🚝 千葉都市單軌 → 千葉みなと → JR京葉線 → 海浜幕張</h3><p>單軌刻意保留作為交通體驗。</p></div>
+<div class="card"><div class="time">60–75 MIN</div><h3>✈️ TOP GUN</h3><p>模型尋寶：ANA / JAL、1:400、彩繪機優先。記錄機型、Registration、品牌、價格與機況。</p><span class="badge must">MUST</span><span class="badge shop">SHOPPING</span></div>
+<div class="card"><h3>🏨 Tokyo Bay Maihama Hotel First Resort</h3><p>前往舞浜、寄放／整理行李。</p></div>
+<div class="card"><h3>🌉 Odaiba Seaside Park</h3><p>Rainbow Bridge＋東京灣夜景攝影。若延誤，先刪台場購物，不刪 TOP GUN。</p></div>
+<div class="card"><h3>🍣 豐洲 千客萬來 → 🛒 LIFE Toyosu</h3><p>晚餐 60–90 分鐘；採買翌日 DisneySea 早餐、水、零食與補給。</p></div></section>
+
+<section class="day" data-day="2"><div class="title"><div><div class="small">DAY 2 · 10/02 FRI</div><h2>東京迪士尼海洋｜Main Entrance IN → Fantasy Springs OUT</h2></div><span class="badge pending">DPA / SP 依當日 App 時段動態調整</span></div>
+<div class="card"><h3>🏨 飯店 → Bayside Station → Disney Resort Line → 正門入園</h3><p>採「區域動線＋DPA/SP Anchor」策略。基準路線以減少折返為原則，但實際 DPA / SP 指定時段優先。</p></div>
+<div class="card"><h3>📱 入園後 App 任務</h3><p>❄️ 安娜與艾莎的冰雪之旅 <strong>[DPA]</strong>｜🏮 樂佩公主天燈盛會 <strong>[DPA]</strong>｜📸 米格爾角色見面會 <strong>[SP-G]</strong>｜🛍️ 恩波里歐商場、阿拉丁商店 <strong>[SP-S]</strong></p><p class="note">Frozen 與 Rapunzel 預計購買 DPA；實際取得時段以當天 App 為準，不在網頁中寫死。</p></div>
+<div class="card"><h3>🌊 地中海港灣 → 🇺🇸 美國海濱</h3><p>🧸 玩具總動員瘋狂遊戲屋：排隊時間合理才玩。</p></div>
+<div class="card"><h3>⚓ 發現港 → 🌴 失落河三角洲</h3><p>💀 Lazos de la Familia／《可可夜總會》主題活動<br>📸 米格爾角色見面會 [SP-G]<br>🍽️ Coco 主題餐飲<br>🔥 忿怒雙神</p><span class="badge must">COCO MISSION</span></div>
+<div class="card"><h3>🕌 阿拉伯海岸</h3><p>🛍️ <strong>阿拉丁商店 [SP-S]</strong>｜區域拍照＋休息。</p><span class="badge shop">MUST SHOP</span></div>
+<div class="card"><h3>🧜 美人魚礁湖 → 🌋 神秘島</h3><p>🌊 海底兩萬哩<br>🌋 地心探險之旅</p></div>
+<div class="card"><h3>🌊 地中海港灣｜晚間 Block</h3><p>🎆 晚間表演／夜間活動<br>🛍️ <strong>恩波里歐商場 [SP-S]</strong>：DisneySea 25週年、Halloween、Pooh 禮物主要採購站。</p><span class="badge shop">MUST SHOP</span></div>
+<div class="card"><h3>🏰 夢幻泉鄉｜最後遊玩區</h3><p>❄️ <strong>安娜與艾莎的冰雪之旅 [DPA]</strong><br>🏮 <strong>樂佩公主天燈盛會 [DPA]</strong><br>📸 Fantasy Springs 夜景</p><p>理想上將兩張 DPA 安排在傍晚～晚上並相互接近，但以當日可購時段為準。</p><span class="badge must">DPA PRIORITY</span></div>
+<div class="card"><h3>🚪 Fantasy Springs Entrance 退園 → 飯店</h3><p>晚上不再折返 DisneySea 正門；由夢幻泉鄉側退園，往 Bayside Station／飯店方向返回。</p><span class="badge lock">20:30–20:45 RETURN TARGET</span><p class="note">依目前規劃，最晚 21:00 前進入夢幻泉鄉區域準備退園；出發前仍需再做官方 Final Audit。</p></div>
+<div class="card"><h3>🛍️ Disney Shopping Mission</h3><p>🔴 Pooh 朋友禮物｜🔴 DisneySea 25週年紀念商品｜🟠 Halloween 限定商品。</p><p class="note">Tower of Terror：本次日期位於維修期間，排除。</p></div></section>
+
+<section class="day" data-day="3"><div class="title"><div><div class="small">DAY 3 · 10/03 SAT</div><h2>Asakusa × Skytree × Ueno × Akihabara</h2></div><span class="badge pending">Luggage unresolved</span></div>
+<div class="card"><div class="time">08:45–10:00</div><h3>⛩️ 雷門＋淺草寺</h3></div><div class="card"><div class="time">10:00–10:30</div><h3>🌳 隅田川公園</h3><p>Skytree＋隅田川攝影。</p></div><div class="card"><div class="time">11:00–12:30</div><h3>🗼 Tokyo Skytree</h3><p>目前傾向 350m＋450m；票券待確認。</p></div><div class="card"><div class="time">13:15–15:20</div><h3>上野東照宮 → 上野公園 → Sushi Tsune</h3></div><div class="card"><div class="time">15:30–17:30</div><h3>🧸 Yamashiroya → 阿美橫町</h3><p>各 60 分鐘。</p></div><div class="card"><div class="time">17:50–19:05</div><h3>✈️🚂 Akihabara Model & Railway Block</h3><p>Hobby Land Pochi 2nd Store 6F＋GENERAL STORE RAILYARD，共75分鐘自由分配。</p><span class="badge shop">ANA/JAL 1:400 彩繪機</span><span class="badge lock">19:05 HARD STOP</span></div><div class="card"><div class="time">19:25–21:15</div><h3>📸 東京站丸之內 → 🍜 Tokyo Ramen Street</h3></div><div class="card"><h3>🏠 約21:45–22:00 Airbnb</h3></div></section>
+
+<section class="day" data-day="4"><div class="title"><div><div class="small">DAY 4 · 10/04 SUN</div><h2>Coffee × Railway × Harajuku × Ginza × Tokyo Tower</h2></div><span class="badge lock">20:00 Tower locked</span></div>
+<div class="card"><div class="time">08:15–08:50</div><h3>☕ 早餐</h3><p>Primary：Awajizaka Coffee 御茶之水｜Backup：猿田彥珈琲 Ecute Edition 御茶之水。</p></div><div class="card"><div class="time">09:00–09:40</div><h3>📸 聖橋 Railway Photography</h3><p>中央線、總武線、丸之內線、神田川。</p><span class="badge lock">09:40 HARD STOP</span></div><div class="card"><div class="time">10:15–15:45</div><h3>⛩️ 明治神宮 → 竹下通 → AFURI → 表參道 → 澀谷</h3><p>不安排 Shibuya Sky。</p></div><div class="card"><div class="time">16:30–17:35</div><h3>🏠 MUJI Ginza</h3><p>商品待看日本官網後決定。</p><span class="badge pending">WANTED LIST PENDING</span></div><div class="card"><div class="time">17:40–18:10</div><h3>🧼 首里石鹸｜有樂町丸井</h3><p>必到店家，商品待選。</p><span class="badge must">MUST VISIT</span></div><div class="card"><div class="time">18:15–19:15</div><h3>🧥 UNIQLO Ginza</h3><p>2027 韓國首爾＋釜山冬季裝備：Ultra Warm 上下身、羽絨／Parka、Fleece、襪、手套、毛帽、Neck Warmer。</p><span class="badge shop">KOREA WINTER MISSION</span></div><div class="card"><div class="time">20:00–21:00</div><h3>🗼 Tokyo Tower Photography Route</h3><p>增上寺／芝公園 → 塔腳廣角 → 赤羽橋方向。不上塔、不走回頭路。</p><span class="badge lock">HARD LOCK</span></div></section>
+
+<section class="day" data-day="5"><div class="title"><div><div class="small">DAY 5 · 10/05 MON</div><h2>Yanaka Morning × Skyliner × NRT</h2></div></div>
+<div class="card"><div class="time">08:30–09:40</div><h3>☕ CIBI Tokyo</h3><p>早餐＋咖啡。</p></div><div class="card"><div class="time">09:40–10:40</div><h3>🚶 Yanaka Morning Walk</h3><p>千駄木 → 谷中街區 → 谷中銀座 → 夕やけだんだん → 日暮里。</p></div><div class="card"><div class="time">11:10–11:35</div><h3>🧳 Airbnb Final Check</h3><p>護照、錢包、手機、充電器、相機、記憶卡、戰利品、托運與隨身行李。</p></div><div class="card"><div class="time">PRIMARY 12:05 → 12:41</div><h3>🚄 Keisei Skyliner｜日暮里 → NRT T2</h3><p>Backup：12:25 → 13:01。目標 11:45 前抵達 Skyliner 區域。</p><span class="badge must">KEEP</span></div><div class="card"><div class="time">13:00–15:40</div><h3>✈️ NRT Terminal 2</h3><p>STARLUX Check-in → 午餐／Landside Shopping → 約14:30安檢出境 → Duty Free。</p></div><div class="card"><div class="time">16:20</div><h3>✈️ JX803 NRT → TPE</h3><span class="badge lock">HARD LOCK</span></div></section>
+
+<section class="day" data-day="shop"><div class="title"><div><div class="small">SHOPPING</div><h2>Tokyo Shopping Missions</h2></div></div><div class="card" id="shopping"></div></section>
+</main>
+<div class="footer">TOKYO 2026 · Local checklist data is stored in this browser.</div>
+<script>
+const days=[['1','DAY 1'],['2','DAY 2'],['3','DAY 3'],['4','DAY 4'],['5','DAY 5'],['shop','SHOPPING']];
+const tabs=document.getElementById('tabs');
+days.forEach(([id,label],i)=>{let b=document.createElement('button');b.textContent=label;b.dataset.day=id;if(i===0)b.classList.add('active');b.onclick=()=>show(id);tabs.appendChild(b)});
+function show(id){document.querySelectorAll('.day').forEach(x=>x.classList.toggle('active',x.dataset.day===id));document.querySelectorAll('.tabs button').forEach(x=>x.classList.toggle('active',x.dataset.day===id));localStorage.setItem('tokyoTab',id)}
+show(localStorage.getItem('tokyoTab')||'1');
+const items=[
+['Pooh 朋友禮物','DisneySea','MUST'],['DisneySea 25週年紀念商品','DisneySea','MUST'],['Halloween 限定商品','DisneySea','OPTIONAL'],['Nuiパン Winnie the Pooh','東京市區優先 / NRT T1 Backup','MUST'],['ANA/JAL 1:400 彩繪機','TOP GUN / Pochi','WANTED'],['JR／鐵道周邊','RAILYARD','WANTED'],['MUJI 商品','MUJI Ginza','PENDING'],['首里石鹸','有樂町丸井','MUST VISIT'],['韓國冬季禦寒衣物','UNIQLO Ginza','MUST'],['Sugar Butter Sand Tree 經典原味夾心','東京市區沿線 / NRT候選','MUST'],['日本伴手禮','NRT T2','FINAL']];
+let state=JSON.parse(localStorage.getItem('tokyoShop')||'{}');
+function renderShop(){let box=document.getElementById('shopping');box.innerHTML='<p class="small">勾選後會儲存在目前瀏覽器。</p>'+items.map((it,i)=>`<div class="shoprow ${state[i]?'done':''}"><input type="checkbox" ${state[i]?'checked':''} onchange="toggleShop(${i},this.checked)"><div><strong>${it[0]}</strong><div class="small">${it[1]}</div></div><span class="badge ${it[2].includes('MUST')?'must':''}">${it[2]}</span></div>`).join('');updateProgress()}
+window.toggleShop=(i,v)=>{state[i]=v;localStorage.setItem('tokyoShop',JSON.stringify(state));renderShop()};
+function updateProgress(){let n=items.filter((_,i)=>state[i]).length;document.getElementById('progress').textContent=Math.round(n/items.length*100)+'%'}renderShop();
+</script>
+</body></html>
